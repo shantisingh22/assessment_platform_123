@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.submitPage{
+    border:solid 2px red;
+    width:100%;
+    background-color: #EBE9E6;
+    margin: auto;
+    padding-top:103px;
+    padding-bottom:  428px;
+    border:solid 1px red;
+}
+.submitPage1{
+    border:solid 1px red;
+    background-color: #F9F7F2;
+    width:705px;
+    margin: auto;
+}
+.image-box{
+    width:28px;
+    height: 28px;
+    margin: auto;
+    margin-top:65px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.image{
+    border:solid 1px red;
+    width:100%;
+    height: 28px;
+    border-radius: 50%;
+}
+.content-box{
+    /* border:solid 1px red; */
+    width:319px;
+    margin: auto;
+    margin-top: 22px;
+}
+
+.content1{
+    width:265px;
+    font-family: Inter;
+    font-size: 22px;
+    margin: auto;
+    margin-bottom: 36px;
+    font-weight: bold;
+    line-height: 120%;
+}
+.content2{
+    width:319px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-family: Inter;
+    line-height: 160%;
+}
+.content3{
+    width:319px;
+    text-align: center;
+    font-family: Inter;
+    line-height: 150%;
+}
+.submitbutton12{
+    padding: 103px 241px 108px 243px;
+    border-radius: 4px;
+}
+.scorebutton{
+    background-color: #FEEEB4;
+    border: solid 1px #F4D150;
+    font-family: Inter;
+    padding: 16px 35px 16px 35px;
+    border-radius: 4px;
+}
+@media (max-width: 700px) {
+    .submitPage {
+        width: 100%;
+        margin: 0px;
+        padding-top:54px;
+        padding-bottom: 75px;
+    }
+
+    .submitPage1 {
+        width: 320px;
+        border: solid 1px red;
+    }
+       
+    .scorebutton{
+        border: solid 1px red;
+        margin-top:50px;
+        margin-bottom: 75px;
+        margin-left: 65px;
+        margin-right: 65px;
+
+        /* justify-content: center; */
+    }
+
+    .content-box{
+        width: 320px; 
+    }
+
+    .content1 {
+        width: 320px;
+        margin: 0 auto;
+        margin-bottom: 36px;
+        padding: 30px 28px 0px 28px; 
+    }
+
+    .content2 {
+        width: 320px;
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
+
+    .content3 {
+        width: 320px;
+        margin: 0 auto;
+        padding: 30px 28px 0px 28px; 
+    }
+
+    .image-box {
+        width: 50px; 
+        height: 50px;
+        padding: 60px 147px 0px 145px;
+    }
+
+    .image {
+        height: 50px; 
+    }
+    .submitbutton12{
+        padding: 16px 35px 16px 35px;
+        border-radius: 4px;
+    }
+    .scorebutton{
+        margin: 50px 48px 60px 50px;
+    }
+
+}

@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header1 {
+  border: solid red 1px;
+  background-color: #f8f8f8;
+}
+.headerbox1 {
+  width: 1200px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  background-color: #f8f8f8;
+  justify-content: space-between;
+}
+.logo {
+  border: solid red 1px;
+  margin: 18px 18px;
+}
+.header_right {
+  display: flex;
+  border: solid red 1px;
+  margin: 29px 22px;
+}
+.start-test-button {
+  cursor: pointer;
+  font-size: 20px;
+}
+.score {
+  font-size: 18px;
+  margin-left: 23px;
+}
+
+/* MainComponent.css */
+.main-content {
+  border: red solid 1px;
+  background-color: #EBE9E6;
+  width: 100%;
+  padding-bottom: 395px;
+}
+.score-box {
+  background-color: #4C4B49;
+  color: white;
+  width: 625px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 67px;
+  border-radius: 8px;
+  padding: 55px 42px 52px 41px;
+}
+.box-fix {
+  width: 550px;
+  display: flex;
+  border: red solid 1px;
+}
+.row1 {
+  width: 84px;
+  border: red solid 1px;
+}
+.col {
+  width: 84px;
+  height: 40px;
+  /* border: red solid 1px; */
+  font-size: 24px;
+  text-align: center;
+}
+.col1 {
+  width: 84px;
+  height: 22px;
+  text-align: center;
+  /* border: red solid 1px; */
+}
+.row2 {
+  width: 406px;
+  margin-left: 60px;
+  display: flex;
+  border: red solid 1px;
+}
+.row_one {
+  width: 122px;
+  /* border: red solid 1px; */
+}
+.row_one2 {
+  width: 122px;
+  margin-left: 18px;
+  /* border: red solid 1px; */
+}
+.row_one3 {
+  width: 122px;
+  margin-left: 18px;
+  /* border: red solid 1px; */
+}
+.image {
+  width: 28px;
+  height: 28px;
+  margin-left: 42px;
+  /* border: red solid 1px; */
+}
+.row_two {
+  width: 122px;
+  display: flex;
+  margin-top: 5px;
+  text-align: center;
+  /* border: red solid 1px; */
+}
+.row_onecol {
+  width: 92px;
+  /* border: red solid 1px; */
+}
+.row_onecolone {
+  width: 60px;
+  margin-left: 20px;
+}
+.row_onecol1 {
+  width: 12px;
+  margin-left: 6px;
+}
+.row_onecol123 {
+  width: 12px;
+}
+.content {
+  border: red solid 1px;
+  width: 400px;
+  margin-top: 67px;
+  margin-left: 605px;
+  margin-right: 630px;
+  font-weight: 700;
+}
+.hrline {
+  width: 621px;
+  margin: auto;
+  margin-top: 27px;
+  background-color: #777671;
+}
+
+/*question-list*/
+.question-list1 {
+  border: 1px dotted blue;
+  width: 625px;
+  margin: auto;
+  margin-top: 50px;
+}
+.question-list {
+  border: 1px dotted blue;
+  padding: 10px;
+  width: 625px;
+  margin: auto;
+  margin-top: 50px;
+}
+.question-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.score-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.correct-icon {
+  background-color: green;
+}
+.incorrect-icon {
+  background-color: red;
+}
+.question-score {
+  text-align: left;
+  margin-left: 20px;
+}
+.question-text {
+  margin-right: 450px;
+  text-align: left;
+  margin-left: 30px;
+}
+.expand-icon {
+  width: 19px;
+  font-size: 22px;
+  text-align: right;
+  border-radius: 50%;
+  background-color: #FEEEB4;
+}
+.hrtag {
+  color: #4C4B49;
+  margin-top: 50px;
+}
+
+
+/* media query*/
+@media (max-width: 576px) {
+/*header css*/
+  .header1 {
+    width: 360px;
+    border: solid red 1px;
+    background-color: #f8f8f8;
+  }
+
+  .headerbox1 {
+    width:360;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-top:18px;
+    margin-bottom: 18px;
+    margin-left: 128;
+    margin-right: 30px;
+  }
+
+  /*maincomponent css*/
+  .main-content {
+    width: 360px;
+    padding-bottom: 395px;
+  }
+
+  .score-box {
+    width: 320px;
+    margin: auto;
+    margin-top: 21px;
+    margin-bottom: 71px;
+    border-radius: 8px;
+  }
+  /* .box-fix {
+    border: solid red 5px;
+    width: 320px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+  } */
+  .row2 {
+    margin-left: 0;
+    width: 268px;
+    margin: auto;
+    margin-top: 29px;
+    margin-bottom: 26;
+  }
+
+  .row_one, .row_one2, .row_one3 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
