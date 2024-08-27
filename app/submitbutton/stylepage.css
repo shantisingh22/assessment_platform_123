@@ -3,7 +3,6 @@
     padding: 0;
 }
 .submitPage{
-    border:solid 2px red;
     width:100%;
     background-color: #EBE9E6;
     margin: auto;
@@ -15,6 +14,7 @@
     border:solid 1px red;
     background-color: #F9F7F2;
     width:705px;
+    padding-bottom:108px;
     margin: auto;
 }
 .image-box{
@@ -61,15 +61,12 @@
     font-family: Inter;
     line-height: 150%;
 }
-.submitbutton12{
-    padding: 103px 241px 108px 243px;
-    border-radius: 4px;
-}
 .scorebutton{
     background-color: #FEEEB4;
     border: solid 1px #F4D150;
     font-family: Inter;
     padding: 16px 35px 16px 35px;
+    margin: 98px 241px 108px 243px;
     border-radius: 4px;
 }
 @media (max-width: 700px) {
@@ -92,7 +89,6 @@
         margin-left: 65px;
         margin-right: 65px;
 
-        /* justify-content: center; */
     }
 
     .content-box{

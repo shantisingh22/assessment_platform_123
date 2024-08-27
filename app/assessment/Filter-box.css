@@ -1,0 +1,144 @@
+/* FILTER BOX*/ 
+.Filter_box12 {
+    width:284px;
+    margin-top: 20px;
+    height:375px;
+    font-family: Inter;
+    border-radius: 12px;
+    padding:36px;
+    background-color: #F9F7F2;
+    /* border: solid 1px blue; */
+}
+.headingBox {
+    width:197px;
+    font-size: 16px;
+    font-weight: bold;
+    /* border: solid 1px red; */
+    font-family: Inter;
+}
+.filters {
+    /* margin-top: 36px; */
+    margin:auto;
+    width:197px;
+    background-color: #F9F7F2;
+    /* border: solid 1px red; */
+}
+.filter-group {
+    margin-bottom: 20px;
+    /* border: solid1px red; */
+}
+.filter-label {
+    width:197px;
+    font-size: 14px;
+    margin-top:36px;
+    color: #666;
+    font-weight: bold;
+    /* border: solid 1px red; */
+}
+/* First BOX DIV*/
+.filterBoxmidd{
+    width:197px;
+    margin-top:16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+    /* border: solid 1px blue; */
+}
+.filterbox1 {
+    width:40px;
+    height:42px;
+    font-size:14px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    /* border: 1px solid #ccc; */
+    /* border: solid 1px red; */
+}
+.filterbox2 {
+    width:40px;
+    height:42px;
+    font-size:14px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    background-color: #FEEEB4;
+    border: 1px solid #F4D150;
+    /* border: solid 1px red; */
+}
+.filterbox3 {
+    width:40px;
+    height:42px;
+    font-size:14px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    background-color: #FEEEB4;
+    border: 1px solid #F4D150;
+    /* border: solid 1px red; */
+    
+}
+.filterbox4 {
+    width:40px;
+    height:42px;
+    font-size:14px;
+    padding:10px 12px;
+    border-radius: 5px;
+    background-color: #FEEEB4;
+    border: 1px solid #F4D150;
+    /* border: solid 1px red; */
+   
+}
+/* Second BoxDiv*/
+.filter-boxes1 {
+    width:67px;
+    height:29px;
+    font-size:14px;
+    padding:3px 8px;
+    border-radius: 54px;
+    text-align: center;
+    color:white;
+    background-color: black;
+    /* border: 1px solid #F4D150; */
+    /* border: solid1px red; */
+    font-family: Inter;
+}
+.filter-boxes2 {
+    width:112px;
+    height:29px;
+    font-size:14px;
+    padding:3px 8px;
+    border-radius: 54px;
+    background-color: #FEEEB4;
+    border: 1px solid #F4D150;
+    /* border: solid1px red; */
+    font-family: Inter;
+}
+.filter-boxes3 {
+    width:140px;
+    height:29px;
+    font-size:14px;
+    padding:3px 8px;
+    border-radius: 54px;
+    background-color: #FEEEB4;
+    border: 1px solid #F4D150;
+    font-family: Inter;
+}
+.filter-label1 {
+    width:197px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #666;
+    margin-top: 48px;
+    font-weight: bold;
+    font-family: Inter;
+}
+.content {
+    grid-area: content;
+    padding: 20px;
+    background-color: #ffffff;
+} 
+
+@media (max-width: 700px) {
+    .filter-box {
+        display:none;
+    }
+}

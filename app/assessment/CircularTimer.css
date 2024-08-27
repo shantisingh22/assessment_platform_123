@@ -1,0 +1,151 @@
+/*CircularTimer*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.CircularTimer{
+    width:150px;
+    margin:auto;
+    /* background-color: #EBE9E6; */
+}
+.TimerBox{
+    width:148px;
+    height:142px;
+    margin :auto;
+    display: flex;
+    /* border:solid red 1px; */
+    /* background-color: #EBE9E6; */
+}
+.TimerBox1{
+    display: flex;
+    justify-content: center;
+    width:147px;
+    border-radius: 50%;
+    align-items: center;
+    background: conic-gradient(from -55deg, #E68086 0% 15%, #EBE9E6 15% 100%);
+    box-shadow: 0px 4px 7px 4px rgba(0, 0, 0, 0.25);
+
+}
+.TimerBox2{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    background-color: #F9F7F2;
+    /* border:solid red 1px; */
+}
+.TimerBoxone{
+    width:74px;
+    height:50px;
+    margin:auto;
+    margin-top: 35px;
+    margin-bottom:35px;
+    display: flex;
+    /* border:solid red 1px; */
+}
+.Timercol1{
+    width:32px;
+    /* border:solid red 1px; */
+}
+.colbox1{
+    width:32px;
+    height:30px;
+    color: #E68086;
+    /* border:solid red 1px; */
+    font-weight: 500;
+    font-size: 23px;
+    font-family: Inter;
+}
+.colbox2{
+    width:21px;
+    height:15px;
+    margin:auto;
+    font-weight: 500;
+    font-family: Inter;
+    font-size: 12px;
+    /* border:solid red 1px; */
+}
+.Timercol2{
+    width:8px;
+    height:30px;
+    font-size: 23px;
+    font-weight:bold;
+    /* border:solid red 1px; */
+}
+.Timer{
+    width:109px;
+    font-size: 14px;
+    margin:auto;
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 500;
+    font-family: Inter;
+}
+
+@media (max-width: 700px) {
+    .CircularTimer {
+        width: 100px;
+        /* border: solid red 1px; */
+        margin: 0px;
+        background-color: #EBE9E6;
+    }
+
+    .TimerBox {
+        width: 98px;
+        height: 100px;
+        margin: auto;
+        display: flex;
+        background-color: #EBE9E6;
+    }
+
+    .TimerBox1 {
+        width: 97px;
+        height: 97px;
+        border-radius: 50%;
+        background: conic-gradient(from -180deg, #E68086 0% 50%, #EBE9E6 15% 100%);
+        box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.25);
+        background-color: #EBE9E6;
+    }
+
+    .TimerBox2 {
+        width: 80px;
+        height: 80px;
+        background-color: #F9F7F2;
+    }
+
+    .TimerBoxone {
+        width: 50px;
+        height: 35px;
+        margin: 25px auto;
+        display: flex;
+    }
+
+    .colbox1 {
+        width: 24px;
+        height: 20px;
+        font-size: 16px;
+    }
+
+    .colbox2 {
+        width: 18px;
+        height: 12px;
+        font-size: 10px;
+    }
+
+    .Timercol2 {
+        width: 6px;
+        height: 20px;
+        font-size: 16px;
+    }
+
+    .Timer {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+

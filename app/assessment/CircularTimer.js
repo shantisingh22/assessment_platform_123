@@ -1,3 +1,4 @@
+import "./CircularTimer.css";
 const CircularTimer =()=>{
     return(
         <div className="CircularTimer">

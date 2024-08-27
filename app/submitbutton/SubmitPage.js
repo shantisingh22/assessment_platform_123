@@ -14,7 +14,6 @@ const submitPage = ()=>{
                 </div>
                 <a href="/checkscorefolder">
                     <button className="scorebutton">Check Your Score</button>
-                    
                 </a>
             </div>
         </div>

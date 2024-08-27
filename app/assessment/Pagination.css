@@ -1,0 +1,102 @@
+.pagination {
+    gap: 16px;
+} 
+.pagination_button {
+    border: 2px solid #E0DFDA;  
+    padding: 4px 10px 4px 10px;
+    border-radius: 50%;
+    background-color: #F4D150;
+}
+.pageDiv1 {
+    border: 1px solid #E0DFDA; 
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 4px 10px 4px 10px;
+}
+.pageDiv2 {
+    border: 2px solid #E0DFDA; 
+    border-radius: 50%;
+    padding: 4px 10px 4px 10px;
+}
+.pageDiv3 {
+    border: 2px solid #E0DFDA; 
+    border-radius: 50%;
+    padding: 4px 10px 4px 10px;
+}
+.pageDiv4 {
+    border: 2px solid #E0DFDA; 
+    border-radius: 50%;
+    padding: 4px 10px 4px 10px;
+}
+.pageDiv5 {
+    border: 2px solid #E0DFDA; 
+    border-radius: 50%;
+    padding: 4px 10px 4px 10px;
+}
+.pageDiv6{
+    border: 2px solid #E0DFDA; 
+    border-radius: 50%;
+    padding: 4px 10px 4px 10px;
+}
+.pageDiv7 {
+    border: 2px solid #E0DFDA; 
+    border-radius: 50%;
+    padding: 4px 10px 4px 10px;
+}
+.pageDiv8 {
+    border: 2px solid #E0DFDA; 
+    border-radius: 50%;
+    padding: 4px 10px 4px 10px;
+}
+.pageDiv{
+    /* border:solid red 1px; */
+    display:none;
+}
+
+@media (max-width: 700px) {
+    .paginationBox{
+        box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
+        padding: 20px 19px 24px;
+        /* border:solid 1px #FCFAFA; */
+    }
+    .pagination{
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        gap:21px;
+    }
+    .pagination_button {
+        border: 1px solid #E0DFDA;  
+        padding: 4px 8px 4px 8px;
+        border-radius: 50%;
+        background-color: #F4D150;
+    }
+    .pageDiv1{
+        background-color: white;
+        color:black;
+    }
+    .pageDiv2{
+        display:none;
+    }
+    .pageDiv3{
+        display:none;
+    }
+    .pageDiv4{
+        display:none;
+    }
+    .pageDiv5 {
+        background-color: black;
+        color:white;
+    }
+
+    .pageDiv6{
+        display:none;
+    }
+    .pageDiv7{
+        display:none;
+    }
+    .pageDiv{
+        display:block;
+    }
+}
