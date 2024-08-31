@@ -4,12 +4,19 @@
 }
 
 /* Main Component CSS */
+
 .main-content {
   /* border: red solid 1px; */
+  width:600px;
   background-color: #EBE9E6;
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 395px;
+  padding-bottom:50px;
+}
+.MaincomponenetBox1{
+  /* border:solid red 1px; */
+  width:625px;
+  margin:auto;
 }
 
 .score-box {
@@ -154,11 +161,9 @@
 }
 
 .content {
-  border: red solid 1px;
+  /* border: red solid 1px; */
   width: 400px;
   margin-top: 67px;
-  margin-left: 605px;
-  /* margin-right: 630px; */
   font-weight: 700;
 }
 
@@ -167,6 +172,7 @@
   margin: auto;
   margin-top: 27px;
   background-color: #777671;
+  /* margin-bottom: 50px; */
 }
 
 /* Question List CSS */
@@ -182,6 +188,7 @@
   width: 595px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 348px;
 }
 
 .question_item {
@@ -291,59 +298,16 @@
   width: 560px;
   background-color: #EBE9E6;
 }
-
-/* .question-body {
-  width: 560px;
-  padding: 40px 30px;
-  border-radius: 12px;
-  background-color: #FCFAFA;
-  border: solid green 1px;
-} */
-
-/* .options label {
-  display: block;
-  margin-bottom: 12px;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-} */
-
 /* Media Query for Mobile View */
 @media (max-width: 700px) {
-
-  /* Header CSS */
-  .header1 {
-    width: 100%;
-    background-color: #f8f8f8;
-    padding: 0 10px;
-  }
-
-  .headerbox1 {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 0;
-  }
-
-  .logo {
-    margin-top: 18px;
-    margin-bottom: 18px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .header_right {
-    margin: 10px 0;
-    display:none;
-  }
-
   /* Main Component CSS */
   .main-content {
     width: 100%;
     padding: 20px;
     padding-bottom: 395px;
+  }
+  .MaincomponenetBox1{
+    width:100%;
   }
 
   .score-box {
@@ -460,10 +424,10 @@
     width: 100%;
   }
 
-  /* .question-body {
+  .question-body {
     width: 100%;
     border-radius: 12px;
-  } */
+  }
 
   .options label {
     font-size: 16px;
