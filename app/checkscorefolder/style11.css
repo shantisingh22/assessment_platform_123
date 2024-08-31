@@ -75,7 +75,7 @@
 .row4 {
   border: solid 2px #8F887C;
 }
-p {
+.p {
   margin-bottom: 28px;
   font-family: Inter;
   font-size: 14px;
@@ -292,15 +292,15 @@ p {
   background-color: #EBE9E6;
 }
 
-.question-body {
+/* .question-body {
   width: 560px;
   padding: 40px 30px;
   border-radius: 12px;
   background-color: #FCFAFA;
   border: solid green 1px;
-}
+} */
 
-.options label {
+/* .options label {
   display: block;
   margin-bottom: 12px;
   font-family: Inter;
@@ -308,7 +308,7 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
-}
+} */
 
 /* Media Query for Mobile View */
 @media (max-width: 700px) {
@@ -460,10 +460,10 @@ p {
     width: 100%;
   }
 
-  .question-body {
+  /* .question-body {
     width: 100%;
     border-radius: 12px;
-  }
+  } */
 
   .options label {
     font-size: 16px;

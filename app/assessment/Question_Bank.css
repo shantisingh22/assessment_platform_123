@@ -1,8 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+
 /* QUESTION BOX*/
 .question-box {
     padding-top: 1px;
     width: 560px;
     background-color: #EBE9E6;
+    margin-top: 66px;
+    margin-bottom: 136px;
     /* border: solid 1px blue; */
 }
 .question-book {
@@ -15,15 +22,26 @@
     border-radius: 12px;
     /* border: solid 1px blue; */
 }
+.p {
+    margin-bottom: 28px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    color:#1F1E1C;
+  }
 .question-title {
     font-size: 18px;
     font-weight: bold;
-    font-family: Inter;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 16px;
+    color:#4C4B49;
     /* border: solid 1px blue; */
 }
 .score {
     font-size: 18px;
-    color:#1F1E1C;
+    color: #4C4B49;
     font-weight: bold;
     /* border: solid 1px blue; */
 }
@@ -36,15 +54,38 @@
     border-radius: 12px;
     background-color: #FCFAFA;
 }
-.options label{
-    display: block;
-    margin-bottom: 15px;
-    margin-right: 16px;
-}
-.input{
-    display: block;
-    margin-right: 16px;
-}
+
+
+/* Container for the form */
+form {
+    margin: 28px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 15px;
+  }
+  label {
+    font-size: 16px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color:#4C4B49;
+  }
+  form br {
+    margin-bottom: 12px;
+  }
+  
+  
+  /* Optional: styling for the entire form section */
+  .question-body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  
+
 
 @media (max-width: 700px) {
    .question-box{

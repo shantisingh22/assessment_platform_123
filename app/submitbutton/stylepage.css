@@ -64,6 +64,7 @@
 .scorebutton{
     background-color: #FEEEB4;
     border: solid 1px #F4D150;
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
     font-family: Inter;
     margin-left: 243px;
     margin-right:239px;
@@ -72,6 +73,7 @@
     margin-bottom: 108px;
     border-radius: 4px;
 }
+
 @media (max-width: 700px) {
     .submitPage {
         width: 100%;
@@ -107,6 +109,7 @@
         width: 320px;
         text-align: center;
         font-size: 24px;
+        color:1F1E1C;
     }
 
     .content2 {
@@ -135,6 +138,7 @@
         margin:auto;
         margin: 50px 60px;
         padding: 16px 30px;
+        box-shadow: 0px 4px 7px 0px #B3AE9C;
         /* border: red 1px solid; */
 
     }

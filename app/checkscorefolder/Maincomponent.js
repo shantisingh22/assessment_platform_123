@@ -6,6 +6,7 @@ const Maincomponent = () => {
       <div className="score-box">
         <div className="box-fix">
           <div className="row1">
+
             <div className="col">35/40</div>
             <div className="col1">Your Score</div>
           </div>
