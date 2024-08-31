@@ -36,9 +36,14 @@
     border-radius: 12px;
     background-color: #FCFAFA;
 }
-.options label {
+.options label{
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    margin-right: 16px;
+}
+.input{
+    display: block;
+    margin-right: 16px;
 }
 
 @media (max-width: 700px) {
