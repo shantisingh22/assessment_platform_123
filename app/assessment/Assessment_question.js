@@ -1,7 +1,7 @@
 import FilterBtnComponent from "./Filter_btn_component.js";
 import CircularTimer from "./CircularTimer";
 import Filter_box from "./Filter-box";
-import ButtonPage from "./SubmitButtonComponent";
+// import ButtonPage from "./SubmitButtonComponent";
 import Question_Bank from "./Question_Bank";
 const Assessment = () => {
     return (
@@ -16,7 +16,7 @@ const Assessment = () => {
                         <Filter_box />
                     </div>
                 </div>
-                <div className="mainquestion-box">
+
                     <div className="question-box">
                         <Question_Bank />
                         <Question_Bank />
@@ -24,10 +24,10 @@ const Assessment = () => {
                         <Question_Bank />
                         <Question_Bank />
                     </div>
-                    <div className="ButtonPageDiv">
+                    {/* <div className="ButtonPageDiv">
                         <ButtonPage/>
-                    </div>
-                </div>
+                    </div> */}
+
             </div>
         </div>
     );

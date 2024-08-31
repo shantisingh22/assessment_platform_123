@@ -28,7 +28,7 @@
 }
 
 .header_box2 {
-    width: 999px;
+    width: 997px;
     height: 72px;
     display: flex;
     justify-content: space-between;
@@ -57,7 +57,7 @@
 }
 .questions11{
     /* border: solid 1px red; */
-    width:896px;
+    width:894px;
     display: flex;
     margin-right:203px;
     margin-left: 103px;
@@ -94,69 +94,71 @@
         margin: 0;
         padding: 0;
     }
-    .header_one{
+    .header_one {
         width: 100%;
-       
     }
     .questions {
         width: 100%;
-        
     }
-
-    .header_one1{
+    .header_one1 {
         width: 100%;
+        flex-direction: column;
     }
-    .Image{
-        border:solid 2px #EBE9E6;
-        width:100%;
-        height:72px; 
+    .Image {
+        border: solid 2px #EBE9E6;
+        width: 100%;
+        height: 72px;
         text-align: center;
-        margin:18px 18px;
         margin:auto;
-    } 
+    }
     .header_box2 {
-        width:100%;
-        display:block;
-        height:auto;
+        width: 100%;
+        display: block;
+        height: auto;
     }
     .header_logo {
-        margin:18px 18px;
+        margin: 18px 18px;
     }
-    
     .questions {
         width: 100%;
         margin: auto;
-        margin-top:85px;
+        margin-top: 85px;
         justify-content: space-between;
         background-color: #EBE9E6;
     }
-    .questions11{
-        width:100%;
+    .questions11 {
+        width: 100%;
         padding: 19px;
-        display:block;
-        margin:0px;
+        display: block;
+        margin: 0px;
     }
-    .watch-box{
-        width:100%;
-        top:0px;;
-        height:104px;
+    .watch-box {
+        width: 100%;
+        top: 0px;
+        height: 104px;
         display: flex;
+        margin-bottom: 50px;
         justify-content: space-between;
     }
     .mainquestion-box {
         width: 100%;
         border: solid 1px blue;
     }
-    .ButtonPageDiv{
-        border:solid red 1px;
-        width:125px;
-        float:right;
+    .ButtonPageDiv {
+        border: solid red 1px;
+        width: 125px;
+        float: right;
         display: block;
     }
     .submitbutton {
-        padding: 16px 35px;
+        position: fixed;
+        top: 657px;
+        right: 19px;
         border-radius: 4px;
-        display: none;
-
+        background-color: #FEEEB4;
+        border: solid 1px #F4D150;
+        padding: 16px 35px;
+        margin-right: 0px;
     }
 }
+

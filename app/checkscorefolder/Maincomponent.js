@@ -11,24 +11,26 @@ const Maincomponent = () => {
           </div>
           <div className="row2">
             <div className="row_one">
-              <img src="image (1).png" className="image" alt="Unattempted" />
-              <div className="row_two">
+              <img src="image (1).png" className="image"/>
+              <div className="row_twobox">
                 <div className="row_onecol">Unattempted:</div>
                 <div className="row_onecol1">3</div>
               </div>
             </div>
+            <div className='row4'></div>
             <div className="row_one2">
-              <img src="Check.png" className="image" alt="Correct" />
-              <div className="row_two">
-                <div className="row_onecolone">Correct:</div>
+              <img src="Check.png" className="image1" alt="Correct" />
+              <div className="row_twobox1">
+                <div className="row_onecolone1">Correct:</div>
                 <div className="row_onecol123">3</div>
               </div>
             </div>
+            <div className='row4'></div>
             <div className="row_one3">
-              <img src="Check (1).png" className="image" alt="Wrong" />
-              <div className="row_two">
-                <div className="row_onecolone">Wrong:</div>
-                <div className="row_onecol123">3</div>
+              <img src="Check (1).png" className="image2" alt="Wrong" />
+              <div className="row_twobox2">
+                <div className="row_onecolone2">Wrong:</div>
+                <div className="row_onecol1234">3</div>
               </div>
             </div>
           </div>

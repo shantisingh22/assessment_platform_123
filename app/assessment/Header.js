@@ -1,5 +1,4 @@
 // import React from 'react';
-import ButtonPage from "./SubmitButtonComponent.js";
 import Pagination from "./Pagination.js";
 import './style.css';
 const Header = () => {
@@ -13,7 +12,7 @@ const Header = () => {
                     <Pagination />
                 </div>
                 <a href="/submitbutton">
-                    <ButtonPage/>
+                    <button className="submitbutton">Submit</button>
                 </a>
             </div>
         </div>

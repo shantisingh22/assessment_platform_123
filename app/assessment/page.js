@@ -7,7 +7,7 @@ const main_page = () => {
         <div className="container-box">
             <Header/>
             <Assessment/>
-            <home/>
+            {/* <home/> */}
         </div>
     );
 };

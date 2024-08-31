@@ -4,7 +4,7 @@ import "./stylepage.css";
 const Home = () => {
     return (
         <>
-            <Header />
+            <Header/>
             <SubmitPage />
         </>
     );

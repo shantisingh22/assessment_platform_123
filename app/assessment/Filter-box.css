@@ -52,8 +52,6 @@
     border-radius: 5px;
     color: white;
     background-color: black;
-    /* border: 1px solid #ccc; */
-    /* border: solid 1px red; */
 }
 .filterbox2 {
     width:40px;
@@ -63,7 +61,6 @@
     border-radius: 5px;
     background-color: #FEEEB4;
     border: 1px solid #F4D150;
-    /* border: solid 1px red; */
 }
 .filterbox3 {
     width:40px;
@@ -97,8 +94,6 @@
     text-align: center;
     color:white;
     background-color: black;
-    /* border: 1px solid #F4D150; */
-    /* border: solid1px red; */
     font-family: Inter;
 }
 .filter-boxes2 {

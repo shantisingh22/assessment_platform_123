@@ -1,53 +1,95 @@
-.pagination {
-    gap: 16px;
+.pagination{
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    gap:21px;
 } 
 .pagination_button {
+    height:30px;
+    width:30px;
+    font-size: 19px;
     border: 2px solid #E0DFDA;  
-    padding: 4px 10px 4px 10px;
+    text-align: center;
     border-radius: 50%;
     background-color: #F4D150;
 }
 .pageDiv1 {
-    border: 1px solid #E0DFDA; 
+    width: 30px;
+    height:30px;
     border-radius: 50%;
+    text-align: center;
+    border: 1px solid #E0DFDA;
     background-color: black;
     color: white;
-    padding: 4px 10px 4px 10px;
+    font-size: 17px;
 }
 .pageDiv2 {
+    height:30px;
+    text-align: center;
+    width: 30px;
     border: 2px solid #E0DFDA; 
     border-radius: 50%;
-    padding: 4px 10px 4px 10px;
+    font-size: 17px;
 }
+    /* padding: 7px 10px 6px 10px; */
+    
+
 .pageDiv3 {
+    width:30px;
+    text-align: center;
+    height:30px;
     border: 2px solid #E0DFDA; 
     border-radius: 50%;
-    padding: 4px 10px 4px 10px;
+    font-size: 17px;
 }
+    /* padding: 4px 10px 4px 10px; */
+
 .pageDiv4 {
+    width:30px;
+    text-align: center;
+    height:30px;
     border: 2px solid #E0DFDA; 
     border-radius: 50%;
-    padding: 4px 10px 4px 10px;
+    font-size: 17px;
+
+    /* padding: 4px 10px 4px 10px; */
 }
 .pageDiv5 {
+    width:30px;
+    text-align: center;
+    height:30px;
     border: 2px solid #E0DFDA; 
     border-radius: 50%;
-    padding: 4px 10px 4px 10px;
+    font-size: 17px;
+
+    /* padding: 4px 10px 4px 10px; */
 }
 .pageDiv6{
+    width:30px;
+    text-align: center;
+    height:30px;
     border: 2px solid #E0DFDA; 
     border-radius: 50%;
-    padding: 4px 10px 4px 10px;
+    font-size: 17px;
+    /* padding: 4px 10px 4px 10px; */
 }
 .pageDiv7 {
+    width:30px;
+    text-align: center;
+    height:30px;
     border: 2px solid #E0DFDA; 
     border-radius: 50%;
-    padding: 4px 10px 4px 10px;
+    font-size: 17px;
+    /* padding: 4px 10px 4px 10px; */
 }
 .pageDiv8 {
+    width:30px;
+    text-align: center;
+    height:30px;
     border: 2px solid #E0DFDA; 
     border-radius: 50%;
-    padding: 4px 10px 4px 10px;
+    font-size: 17px;
+    /* padding: 4px 10px 4px 10px; */
 }
 .pageDiv{
     /* border:solid red 1px; */
@@ -60,18 +102,7 @@
         padding: 20px 19px 24px;
         /* border:solid 1px #FCFAFA; */
     }
-    .pagination{
-        justify-content: center;
-        align-items: center;
-        margin:auto;
-        gap:21px;
-    }
-    .pagination_button {
-        border: 1px solid #E0DFDA;  
-        padding: 4px 8px 4px 8px;
-        border-radius: 50%;
-        background-color: #F4D150;
-    }
+    
     .pageDiv1{
         background-color: white;
         color:black;
