@@ -6,7 +6,6 @@
 /* Main Component CSS */
 
 .main-content {
-  /* border: red solid 1px; */
   width:600px;
   background-color: #EBE9E6;
   width: 100%;
@@ -14,7 +13,6 @@
   padding-bottom:50px;
 }
 .MaincomponenetBox1{
-  /* border:solid red 1px; */
   width:625px;
   margin:auto;
 }
@@ -24,7 +22,6 @@
   color: white;
   width: 625px;
   margin: auto;
-  /* margin-top: 40px; */
   margin-bottom: 67px;
   border-radius: 8px;
   padding: 55px 42px 52px 41px;
@@ -33,13 +30,11 @@
 .box-fix {
   width: 100%;
   display: flex;
-  /* border: red solid 1px; */
 }
 
 .row1 {
   width: 84px;
   height:63px;
-  /* border: red solid 1px; */
 }
 
 .col {
@@ -60,36 +55,23 @@
   width: 406px;
   margin-left: 60px;
   display: flex;
-  /* border: red solid 1px; */
   justify-content: space-between;
 }
 
 .row_one {
   width: 122px;
-  /* border: red solid 1px; */
 }
 
 .row_one2 {
   width: 84px;
-  /* border: red solid 1px; */
 }
 
 .row_one3 {
   width: 68px;
-  /* border: red solid 1px; */
 }
 
 .row4 {
   border: solid 2px #8F887C;
-}
-.p {
-  margin-bottom: 28px;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 160%;
-  color:#1F1E1C;
 }
 .image {
   height: 30px;
@@ -111,7 +93,6 @@
   display: flex;
   margin-top: 7px;
   justify-content: space-between;
-  /* border: solid 1px red; */
   font-size: 14px;
 }
 
@@ -120,7 +101,6 @@
   display: flex;
   margin-top: 5px;
   justify-content: space-between;
-  /* border: solid 1px red; */
   font-size: 14px;
 }
 
@@ -129,18 +109,15 @@
   display: flex;
   margin-top: 5px;
   justify-content: space-between;
-  /* border: solid 1px red; */
   font-size: 14px;
 }
 
 .row_onecolone1 {
   width: 60px;
-  /* border: solid 1px red; */
 }
 
 .row_onecolone2 {
   width: 55px;
-  /* border: solid 1px red; */
 }
 
 .row_onecol1 {
@@ -150,20 +127,18 @@
 
 .row_onecol123 {
   width: 22px;
-  /* border: solid 1px red; */
   text-align: center;
 }
 
 .row_onecol1234 {
   width: 12px;
   text-align: center;
-  /* border: solid 1px red; */
 }
 
 .content {
-  /* border: red solid 1px; */
   width: 400px;
   margin-top: 67px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -172,19 +147,16 @@
   margin: auto;
   margin-top: 27px;
   background-color: #777671;
-  /* margin-bottom: 50px; */
 }
 
 /* Question List CSS */
 .question-list1 {
-  /* border: 1px dotted blue; */
   width: 595px;
   margin: auto;
   margin-top: 50px;
 }
 
 .question-list {
-  /* border: 1px dotted blue; */
   width: 595px;
   margin: auto;
   margin-top: 50px;
@@ -194,21 +166,18 @@
 .question_item {
   display: flex;
   height: 28px;
-  /* border: solid 1px red; */
   justify-content: space-between;
   align-items: center;
 }
 
 .questionOneBox {
   width: 595px;
-  /* border: solid 1px red; */
 }
 
 .mainBoxone {
   width: 112px;
   display: flex;
   justify-content: space-between;
-  /* border: solid 1px red; */
 }
 
 .correct_icon {
@@ -218,7 +187,6 @@
   color: white;
   font-size: 20px;
   text-align: center;
-  /* border: solid 1px red; */
   background-color: #88BE37;
 }
 .correct_iconCheck {
@@ -228,7 +196,6 @@
   color: black;
   font-size: 20px;
   text-align: center;
-  /* border: solid 1px red; */
   background-color: #E0DFDA;
 }
 .incorrect_icon {
@@ -244,14 +211,12 @@
 .question_score {
   width: 20px;
   height: 28px;
-  /* border: solid 1px red; */
 }
 
 .question_text {
   width: 32px;
   height: 28px;
   text-align: center;
-  /* border: solid 1px red; */
 }
 
 .round_icon {
@@ -283,10 +248,14 @@
   margin-left: 0px;
 }
 
-
+p{
+  font-family: Inter;
+  color:#1F1E1C;
+  font-size: 14px;
+  font-weight: 600;
+}
 /* Question Book CSS */
 .QuestionBook {
-  /* border: solid red 1px; */
   width: 560px;
   margin-left: 30px;
   margin-bottom: 53px;
@@ -300,7 +269,6 @@
 }
 /* Media Query for Mobile View */
 @media (max-width: 700px) {
-  /* Main Component CSS */
   .main-content {
     width: 100%;
     padding: 20px;
@@ -318,7 +286,6 @@
   }
 
   .box-fix {
-    /* border: solid red 1px; */
     width: 100%;
     border-radius: 8px;
     margin: auto;
@@ -369,13 +336,11 @@
   .row_twobox {
     width: 90px;
     margin-top: 9px;
-    /* border: solid 1px red; */
     flex-direction: column;
   }
   
   .row_twobox1 {
     width: 70px;
-    /* border: solid 1px red; */
     flex-direction: column;
 
   }
@@ -392,17 +357,14 @@
   .row_onecolone1 {
     width: 70px;
     text-align: center;
-    /* border: solid 1px red; */
   }
   
   .row_onecolone2 {
     width: 70px;
     text-align: center;
-    /* border: solid 1px red; */
   }
   .row_onecol123 {
     width: 22px;
-    /* border: solid 1px red; */
     text-align: center;
     margin:auto;
   }
@@ -411,7 +373,6 @@
     width: 18px;
     margin:auto;
     text-align: center;
-    /* border: solid 1px red; */
   }
 
   /* Question Book CSS */
@@ -434,16 +395,12 @@
   }
   /*Question List*/
   .question-list {
-    /* border: 1px solid blue; */
     width:100%;
     margin: auto;
     margin-top: 50px;
   }
   .question-list1 {
-    /* border: 1px dotted blue; */
     width: 100%;
-    /* margin: auto;
-    margin-top: 50px; */
   }
   .main-content {
     width: 100%;
@@ -454,28 +411,20 @@
   .question_item {
     display: flex;
     height: 28px;
-    /* border: solid 1px red; */
     justify-content: space-between;
     align-items: center;
   }
   
   .questionOneBox {
     width: 100%;
-    /* border: solid 1px red; */
   }
   .questionOneBox1 {
     width: 100%;
-    /* border: solid 1px red; */
   }
   .content {
-    /* border: red solid 1px; */
     width: 100%;
     margin:auto;
     font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
     color:#1F1E1C;
   }
   

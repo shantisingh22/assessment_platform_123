@@ -3,7 +3,7 @@ const Pagination = () => {
   return (
     <div className='paginationBox'>
       <div className="pagination">
-      <div className="pagination_button">&lt;</div>
+      <div className="pagination_buttonleft">&lt;</div>
         <div className="pageDiv1">1</div>
         <div className="pageDiv2">2</div>
         <div className="pageDiv">...</div>
@@ -14,7 +14,7 @@ const Pagination = () => {
         <div className="pageDiv6">6</div>
         <div className="pageDiv7">7</div>
         <div className="pageDiv8">8</div>
-        <div className="pagination_button">&gt;</div>
+        <div className="pagination_buttonright">&gt;</div>
       </div>
     </div>
   );

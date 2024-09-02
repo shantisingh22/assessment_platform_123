@@ -1,146 +1,143 @@
+/* Global Reset */
 * {
     margin: 0;
     padding: 0;
 }
-.submitPage{
-    width:100%;
+
+/* Submit Page Styles */
+.submitPage {
+    width: 100%;
     background-color: #EBE9E6;
     margin: auto;
-    padding-top:103px;
-    padding-bottom:  428px;
-    /* border:solid 1px red; */
-}
-.submitPage1{
-    /* border:solid 1px red; */
-    background-color: #F9F7F2;
-    width:705px;
-    margin: auto;
-}
-.image-box{
-    width:28px;
-    height: 28px;
-    margin: auto;
-    padding:65px 22px;
-    justify-content: center;
-    /* margin-bottom: 22px; */
-    align-items: center;
-    border-radius: 50%;
-}
-.image{
-    /* border:solid 1px red; */
-    width:100%;
-    height: 28px;
-    border-radius: 50%;
-}
-.content-box{
-    /* border:solid 1px red; */
-    width:319px;
-    margin: auto;
-    margin-top: 22px;
+    padding-top: 103px;
+    padding-bottom: 428px;
 }
 
-.content1{
-    width:265px;
-    font-family: Inter;
-    font-size: 22px;
+/* Submit Page Inner Container */
+.submitPage1 {
+    background-color: #F9F7F2;
+    width: 705px;
     margin: auto;
-    margin-bottom: 36px;
-    font-weight: bold;
-    line-height: 120%;
+    padding: 60px 0px 75px 0px;
 }
-.content2{
-    width:319px;
+
+/* Image Box Styles */
+.image-box {
+    width: 28px;
+    margin: auto;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* Image Styles */
+.image {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Content Box Styles */
+.content-box {
+    width: 319px;
+    margin: 22px auto 0;
+}
+
+/* Content Section 1 */
+.content1 {
+    
+        width: 100%;
+        justify-content: center;
+        font-size: 24px;
+        padding: 0 20px;
+        color: #1F1E1C;
+        font-weight: 600;
+    }
+.content2 {
+    width: 319px;
     margin-bottom: 12px;
     text-align: center;
+    font-weight: 600;
+    margin-top: 36px;
+    font-size: 14px;
     font-family: Inter;
-    line-height: 160%;
-}
-.content3{
-    width:319px;
-    text-align: center;
-    font-family: Inter;
-    line-height: 150%;
-}
-.scorebutton{
-    background-color: #FEEEB4;
-    border: solid 1px #F4D150;
-    box-shadow: 0px 4px 7px 0px #B3AE9C;
-    font-family: Inter;
-    margin-left: 243px;
-    margin-right:239px;
-    padding: 16px 35px;
-    margin-top: 98px;
-    margin-bottom: 108px;
-    border-radius: 4px;
 }
 
+/* Content Section 3 */
+.content3 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    padding:0px 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.ScoresDiv {
+    width: 235px;
+    margin: 98px auto 0px auto;
+    border-radius: 6px; 
+    border: 2px solid #F4D150;
+    background: #FEEEB4;
+    padding: 16px 35px; 
+    box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
+
+.ScoreAtag {
+    text-decoration: none;
+    color: #1F1E1C;
+    font-family: Inter;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+/* Responsive Design */
 @media (max-width: 700px) {
     .submitPage {
-        width: 100%;
-        height:551px;
-        /* margin: 0px; */
-        padding-top:54px;
-        padding-bottom: 75px ;
+        padding: 54px 20px 75px;
     }
 
     .submitPage1 {
-        width: 320px;
-        height:422px;
-        /* border: solid 1px red; */
-        padding-bottom:0px;
-    }
-       
-    .scorebutton{
-        /* border: solid 1px red; */
-        margin-top:50px;
-        margin-bottom: 75px;
-        margin-left: 65px;
-        margin-right: 65px;
-
+        width: 100%;
     }
 
-    .content-box{
-        width: 320px;
-        margin:0px;
-        /* margin-top: 29px;  */
+    .content-box {
+        width: 100%;
+        margin: 0;
     }
 
     .content1 {
-        width: 320px;
+        width: 100%;
         text-align: center;
         font-size: 24px;
-        color:1F1E1C;
+        padding: 0 20px;
+        color: #1F1E1C;
     }
 
-    .content2 {
-        width: 320px;
+    .content2{
+        width: 100%;
         margin: 0 auto;
         margin-top: 36px;
-        font-size: 14px;
-        font-weight: bold;
+        padding: 0 20px;
+        font-weight: 600px;
     }
 
     .content3 {
-        width: 320px;
-        margin: auto;
+        width: 100%;
+        margin: 0 auto;
         margin-top: 12px;
+        padding: 0 20px;
+        font-weight: 400;
     }
 
     .image-box {
-        width: 93px; 
-        padding: 60px 29px;
+        width: 93px;
     }
 
     .image {
-        height: 50px; 
+        width: 100%;
     }
-    .scorebutton{
-        margin:auto;
-        margin: 50px 60px;
-        padding: 16px 30px;
-        box-shadow: 0px 4px 7px 0px #B3AE9C;
-        /* border: red 1px solid; */
-
-    }
-
 }

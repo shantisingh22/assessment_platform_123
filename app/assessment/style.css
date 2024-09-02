@@ -54,18 +54,15 @@
 .questions {
     width: 1200px;
     margin: auto;
-    justify-content: space-between;
     background-color: #EBE9E6;
 }
 .questions11{
-    /* border: solid 1px red; */
     width:894px;
     display: flex;
     margin-right:203px;
     margin-left: 103px;
 }
 .watch-box{
-    /* border: solid 1px red; */
     width:284px;
     height:565px;
     margin-right: 50px;
@@ -104,7 +101,6 @@
     }
     .header_one1 {
         width: 100%;
-        flex-direction: column;
     }
     .Image {
         border: solid 2px #EBE9E6;
@@ -115,7 +111,7 @@
     }
     .header_box2 {
         width: 100%;
-        display: block;
+        flex-direction: column;
         height: auto;
     }
     .header_logo {
@@ -125,7 +121,6 @@
         width: 100%;
         margin: auto;
         margin-top: 85px;
-        justify-content: space-between;
         background-color: #EBE9E6;
     }
     .questions11 {
@@ -154,7 +149,7 @@
     }
     .submitbutton {
         position: fixed;
-        top: 657px;
+        top: 621px;
         right: 19px;
         border-radius: 4px;
         background-color: #FEEEB4;
