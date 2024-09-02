@@ -1,5 +1,4 @@
 .question-body {
-    /* border: dotted 1px blue; */
     font-family: Inter;
     margin-bottom:40px ;
     width:560px;
@@ -21,7 +20,7 @@ form {
     margin-right: 15px;
   }
   label {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 12px;
     cursor: pointer;
     color:#4C4B49;
