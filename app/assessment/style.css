@@ -13,6 +13,8 @@
 .header_one {
     width: 100%;
     height: 72px;
+    /* border: solid 1px red;
+     */
     background-color: #FCFAFA;
 }
 
@@ -22,6 +24,7 @@
     display: flex;
     align-items: center;
     background-color: #FCFAFA;
+    /* border: solid 1px red; */
     justify-content: space-between;
 }
 
@@ -146,7 +149,7 @@
     }
     .submitbutton {
         position: fixed;
-        top: 767px;
+        top: 608px;
         right: 19px;
         border-radius: 4px;
         background-color: #FEEEB4;
