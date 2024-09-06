@@ -62,14 +62,14 @@
     font-weight: 500;
     font-family: Inter;
     font-size: 12px;
-    /* border:solid red 1px; */
+    
 }
 .Timercol2{
     width:8px;
     height:30px;
     font-size: 23px;
     font-weight:bold;
-    /* border:solid red 1px; */
+    
 }
 .Timer{
     width:109px;
@@ -84,7 +84,6 @@
 @media (max-width: 700px) {
     .CircularTimer {
         width: 100px;
-        /* border: solid red 1px; */
         margin: 0px;
         background-color: #EBE9E6;
     }
