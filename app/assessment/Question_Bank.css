@@ -19,16 +19,17 @@
 }
 
 .question-title {
-    font-size: 18px;
-    font-weight: bold;
-    font-family: "Inria Sans", sans-serif;
     font-size: 16px;
-    color:#4C4B49;
+    font-weight: 700;
+    font-family: "Inria Sans", sans-serif;
+    color:#1F1E1C;
 }
 .score {
-    font-size: 18px;
+    font-size: 14px;
     color: #4C4B49;
-    font-weight: bold;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 150%;
 }
 .question-body {
     font-family: Inter;
