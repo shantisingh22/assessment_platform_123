@@ -16,7 +16,7 @@ form {
     border-radius: 5px;
   }
   
-  input[type="radio"] {
+  .line1{
     margin-right: 15px;
   }
   label {

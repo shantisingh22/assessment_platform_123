@@ -11,9 +11,7 @@ const Header = () => {
                     </div>
                     <Pagination />
                 </div>
-                <a href="/submitbutton">
-                    <button className="submitbutton">Submit</button>
-                </a>
+                <a href="/submitbutton" class="submitbutton">Let's Start!</a>
             </div>
         </div>
     );

@@ -21,7 +21,7 @@
 .test {
   font-family: Inter;
   font-size: 20px;
-  width: 184px;
+  text-align: center;
   font-weight: bold;
   margin: auto;
   color:#4C4B49;
@@ -33,6 +33,7 @@
   background-color:#F9F7F2;
   margin: auto;
   padding-top: 40px;
+  
 }
 .test1{
   width:472px;
@@ -46,9 +47,8 @@
   font-weight: 700;
   font-family: Inter;
 }
-.main-box {
-  width:472px;
-  margin-top:5px;
+.main-boxMCQ{
+  margin-top:16px;
   font-family: Inter;
   font-size: 14px;
   line-height: 150%;
@@ -57,9 +57,10 @@
   width:472px;
   margin-top:8px;
   font-family: Inter;
+  font-size: 14px;
 }
 .list{
-  margin-left: 21px;
+  margin-left: 20px;
   font-family: Inter;
   font-size: 14px;
   padding: 0px;
@@ -73,7 +74,6 @@
 }
 .paragraph1{
   width:472px;
-  margin-top:8px;
   font-family: Inter;
   font-size: 14px;
   line-height: 150%;
@@ -93,20 +93,29 @@
   justify-content: center;
   align-items: center
 }
-.button12{
-  padding: 39px 273px 49px 273px;
-  border-radius: 4px;
-  
+.bottonBox{
+  /* border: solid red 1px; */
+  width:100%;
+  text-align: center;
+  padding:39px 0px 49px 0px;
 }
-.start-button {
-  background-color: #FEEEB4;
-  border: solid #F4D150 1px;
-  padding: 16px 35px 16px 35px;
+.button {
+  text-decoration: none;
+  background-color: #FEEEB4; 
+  border: 1px solid #F4D150; 
+  padding: 16px 35px;
   border-radius: 4px;
-  font-family: Inter;
-  box-shadow: 0px 4px 7px 0px #B3AE9C;
+  font-family: 'Inter', sans-serif; 
+  font-size: 18px; 
+  color: #333333; 
+  box-shadow: 0px 4px 7px #B3AE9C; 
+  display: inline-block; 
+  text-align: center;
+}
 
-}
+  
+ 
+
 
 /* Footer CSS */
 .footer{ 
@@ -128,56 +137,74 @@
 /*Media query */
 @media (max-width: 700px){
   .main-container{
-    /* border:solid red 1px; */
     width:100%;
-    padding-top: 55px;
-    padding-bottom: 80px;
+    padding: 55px 20px 80px 20px;
   }
   .header {
     padding: 18px 120px 18px 128px;
   }
   .test {
-    width: 184px;
+    text-align: center;
     font-family: Inter;
     font-size: 20px;
   }
   .rulessection{
-    width: 320px;
-    margin-top: 34px;
+    width: 100%;
+    padding: 34px 20px 20px 20px;
+    
   }
   .test1{
-    width: 280px;
+    width: 100%;
   }
   .box{
-    width:280px;
+    width:100%;
     text-align: center;
+
   }
-  .main-box{
-    width: 280px;
+  .main-boxMCQ{
+    width: 100%;
+    margin-top:16px;
+    font-weight: 400;
   }
   .main-box1{
-    width:278px;
+    width:100%;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;  
   }
   .paragraph1{
-    width: 280px;
+    width: 100%;
   }
   .paragraph-box{
-    width:280px;
+    width:100%;
   }
   .paragraph{
-    width:280px;
+    width:100%;
   }
   .new1{
-    width: 280px;
+    width:100%;
+    margin-top:39px; 
   }
   .button12{
-    padding: 39px 80px 56px 80px;
+    padding: 56px 95px;
   }
   .footer{
     width:100%;
     font-family: Inter;
     font-size: 14px;
     line-height: 160%;
+  }
+  .bottonBox{
+    width:100%;
+    text-align: center;
+    padding: 39px 0px 56px 0px;
+  }
+
+.button{
+  padding: 16px 0px;
+  width:130px;
   }
 }
 

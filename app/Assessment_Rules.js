@@ -8,7 +8,7 @@ const AssessmentRules = () => {
             <div className="rulessection">
                 <div className='test1'>
                     <div className='box'>Instructions</div>
-                    <div className='main-box'>Please read the instructions carefully before you begin:</div>
+                    <div className='main-boxMCQ'>Please read the instructions carefully before you begin:</div>
                     <div className='main-box1'>
                         <ul className='list'>
                             <li>Timing: The test is timed. You have [specified time] minutes to complete all questions.</li>
@@ -28,11 +28,9 @@ const AssessmentRules = () => {
                     </div>
                 </div>
                 <hr className="new1"></hr>
-                <a href='/assessment'>
-                    <div className='button12'>
-                        <button className="start-button">Let's Start!</button>
-                    </div>
-                </a>
+                <div className='bottonBox'>
+                    <a href="/assessment" class="button">Let's Start!</a>
+                </div>
             </div>
         </>
     );

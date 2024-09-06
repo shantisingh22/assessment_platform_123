@@ -11,6 +11,7 @@
     margin: auto;
     padding-top: 103px;
     padding-bottom: 428px;
+
 }
 
 /* Submit Page Inner Container */
@@ -18,7 +19,7 @@
     background-color: #F9F7F2;
     width: 705px;
     margin: auto;
-    padding: 60px 0px 75px 0px;
+    padding: 65px 0px 108px 0px;
 }
 
 /* Image Box Styles */
@@ -26,6 +27,7 @@
     width: 28px;
     margin: auto;
     margin-bottom: 22px;
+    /* margin-top: 65px; */
     display: flex;
     justify-content: center;
     border-radius: 50%;
@@ -52,6 +54,7 @@
         padding: 0 20px;
         color: #1F1E1C;
         font-weight: 600;
+        line-height: 120%;
     }
 .content2 {
     width: 319px;
@@ -61,6 +64,7 @@
     margin-top: 36px;
     font-size: 14px;
     font-family: Inter;
+    line-height: 160%;
 }
 
 /* Content Section 3 */
@@ -72,18 +76,20 @@
     padding:0px 20px;
     font-style: normal;
     font-weight: 400;
+    line-height: 150%;
 }
 .ScoresDiv {
-    width: 235px;
-    margin: 98px auto 0px auto;
+    width: 100%;
+    margin-top: 98px;
+    text-align: center;
+}
+
+.ScoreAtag {
     border-radius: 6px; 
     border: 2px solid #F4D150;
     background: #FEEEB4;
     padding: 16px 35px; 
     box-shadow: 0px 4px 7px 0px #B3AE9C;
-}
-
-.ScoreAtag {
     text-decoration: none;
     color: #1F1E1C;
     font-family: Inter;
@@ -97,11 +103,12 @@
 /* Responsive Design */
 @media (max-width: 700px) {
     .submitPage {
-        padding: 54px 20px 75px;
+        padding: 103px 20px 180px;
     }
 
     .submitPage1 {
         width: 100%;
+        padding: 60px 0px 80px 0px;
     }
 
     .content-box {
@@ -135,6 +142,11 @@
 
     .image-box {
         width: 93px;
+        margin-bottom: 29px;
+    }
+    .ScoresDiv {
+        margin-top: 60px;
+        /* text-align: center; */
     }
 
     .image {

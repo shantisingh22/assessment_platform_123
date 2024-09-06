@@ -16,9 +16,7 @@ const submitPage = () => {
                     <div className="ScoresDiv">
                         <a className="ScoreAtag" href="/checkscorefolder">Check Your Score</a>
                     </div>
-                    {/* <a className="checkscorebutton"href="/checkscorefolder">
-                    <button className="checkscorebutton">Check Your Score</button>
-                </a> */}
+                    
                 </div>
             </div>
         </>
