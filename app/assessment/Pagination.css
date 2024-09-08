@@ -5,7 +5,8 @@
     gap:21px;
 } 
 .pagination_buttonleft {
-    line-height:28px;
+    line-height:26px;
+    height:28px;
     width:28px;
     border: 1px solid #EBE9E6;  
     text-align: center;
@@ -14,7 +15,8 @@
     background-color: #EBE9E6;
 }
 .pagination_buttonright {
-    line-height:28px;
+    line-height:26px;
+    height:28px;
     width:28px;
     font-size: 18px;
     border: 1px solid #F4D150;  
@@ -24,7 +26,8 @@
 }
 .pageDiv1 {
     width: 30px;
-    line-height:30px;
+    height:30px;
+    line-height:28px;
     border-radius: 50%;
     text-align: center;
     border: 1px solid #4C4B49;
@@ -33,7 +36,8 @@
     font-size: 14px;
 }
 .pageDiv2 {
-    line-height:30px;
+    line-height:28px;
+    height:30px;
     text-align: center;
     width: 30px;
     border: 1px solid #E0DFDA; 
@@ -44,7 +48,8 @@
 .pageDiv3 {
     width:30px;
     text-align: center;
-    line-height:30px;
+    line-height:28px;
+    height:30px;
     border: 1px solid #E0DFDA; 
     border-radius: 50%;
     font-size: 14px;
@@ -53,7 +58,8 @@
 .pageDiv4 {
     width:30px;
     text-align: center;
-    line-height:30px;
+    line-height:28px;
+    height:30px;
     border: 1px solid #E0DFDA; 
     border-radius: 50%;
     font-size: 14px;
@@ -62,7 +68,8 @@
 .pageDiv5 {
     width:30px;
     text-align: center;
-    line-height:30px;
+    line-height:28px;
+    height:30px;
     border: 1px solid #E0DFDA; 
     border-radius: 50%;
     font-size: 14px;
@@ -70,7 +77,8 @@
 .pageDiv6{
     width:30px;
     text-align: center;
-    line-height:30px;
+    line-height:28px;
+    height:30px;
     border: 1px solid #E0DFDA; 
     border-radius: 50%;
     font-size: 14px;
@@ -78,7 +86,8 @@
 .pageDiv7 {
     width:30px;
     text-align: center;
-    line-height:30px;
+    line-height:28px;
+    height:30px;
     border: 1px solid #E0DFDA; 
     border-radius: 50%;
     font-size: 14px;
@@ -86,7 +95,8 @@
 .pageDiv8 {
     width:30px;
     text-align: center;
-    line-height:30px;
+    line-height:28px;
+    height:30px;
     border: 1px solid #E0DFDA; 
     border-radius: 50%;
     font-size: 14px;
